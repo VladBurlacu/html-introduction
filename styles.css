@@ -64,6 +64,10 @@ th {
     color: white;
 }
 
+li {
+    font-size: 25px;
+}
+
 td {
     background-color: white;
 }
