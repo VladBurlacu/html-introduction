@@ -1,20 +1,42 @@
+body {
+    background-color: azure;
+}
+
 h1 {
     color: darkslateblue;
     text-align: center;
     font-size: 45px;
 }
 
-h2, h3{
+h2 {
     text-align: center;
+    font-size: 40px;
 }
 
-h5, h6 {
+h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+h4 {
+    text-align: left;
+    font-size: 30px;
+}
+
+h5 {
     text-align: right;
+    font-size: 25px;
+}
+
+h6 {
+    text-align: right;
+    font-size: 20px;
 }
 
 p {
     font-style: italic;
     text-align: center;
+    font-size: 25px;
 }
 
 p1 {
@@ -25,16 +47,25 @@ p1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 250px;
+    height: 450px;
+    width: 450px;
 }
 
 table, th, td, tr {
     border:2px solid;
-    padding:10px 40px;
+    padding:15px 30px;
     width:300px;
-    resize:both;
-    overflow:auto;
+    box-sizing: border-box;
+}
+
+th {
+    border:2px solid black;
+    background-color: dodgerblue;
+    color: white;
+}
+
+td {
+    background-color: white;
 }
 
 .list {
@@ -46,5 +77,8 @@ table, th, td, tr {
 footer {
     text-align: center;
 }
+
+
+
 
 
