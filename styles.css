@@ -1,0 +1,46 @@
+h1 {
+    color: darkslateblue;
+    text-align: center;
+    font-size: 45px;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+h5, h6 {
+    text-align: right;
+}
+
+p {
+    font-style: italic;
+    text-align: center;
+}
+
+p1 {
+    text-align: center;
+}
+
+.pfp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+}
+
+table, th, td, tr {
+    border:2px solid;
+    padding:10px 40px;
+    width:300px;
+    resize:both;
+    overflow:auto;
+}
+
+.list {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+
