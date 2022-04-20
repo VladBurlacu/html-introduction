@@ -43,4 +43,8 @@ table, th, td, tr {
     transform: translateX(-50%);
 }
 
+footer {
+    text-align: center;
+}
+
 
