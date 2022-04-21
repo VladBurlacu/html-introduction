@@ -145,4 +145,7 @@ footer {
     background-color:orange;
 }
 
-
+p1 {
+    display: flex;
+    justify-content: center;
+}
