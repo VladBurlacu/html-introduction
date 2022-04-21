@@ -2,6 +2,10 @@ body {
     background-color: azure;
     background-image: url("/background2.jpg");
     background-repeat: no-repeat;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 90px;
+    padding-top: 75px;
 }
 
 h1 {
