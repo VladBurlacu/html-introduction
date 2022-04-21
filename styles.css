@@ -1,9 +1,6 @@
 body {
-    background-color: azure;
     background-image: url(background2.jpg);
     background-repeat: no-repeat;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 .animate-character {
@@ -27,6 +24,15 @@ body {
 
 }
 
+p4 {
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
 @keyframes textclip {
     to {
         background-position: 200% center;
@@ -43,28 +49,37 @@ h3 {
 }
 
 h4 {
+    background-color: #cfe0e8;
     text-align: left;
     font-size: 30px;
+    padding: 50px;
 }
 
 h5 {
+    background-color: #87bdd8;
     text-align: right;
     font-size: 25px;
+    padding: 75px;
 }
 
 h6 {
+    background-color: #8d9db6;
     text-align: center;
     font-size: 20px;
+    padding: 75px;
 }
 
 p {
+    background-color: #b7d7e8;
     font-style: italic;
     text-align: center;
     font-size: 25px;
+    padding: 75px;
 }
 
 p1 {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .pfp {
